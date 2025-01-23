@@ -35,8 +35,8 @@ export const CountDown = (
 
     function calculateTimeLeft():CountDownTimeLeft{
         let timeLeft: CountDownTimeLeft = {};
-        let currentDate = new Date();
-        let difference = deadline.getTime() - currentDate.getTime(); 
+        const currentDate = new Date();
+        const difference = deadline.getTime() - currentDate.getTime(); 
         
 
 
