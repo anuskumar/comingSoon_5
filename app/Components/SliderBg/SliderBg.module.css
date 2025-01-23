@@ -29,7 +29,7 @@
     font-weight: 800;
 }
 
-.SliderBg img{
+.SliderBg video{
     height: 100vh;
     width: 100%;
     object-fit: cover;
@@ -69,35 +69,4 @@
     text-shadow: 10px 20px 20px rgba(0,0,0,0.3);
 }
 
-
-/* For SliderControllers */
-.SliderControllers {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    z-index: 3000000000000000;
-}
-
-.SliderControllers button {
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.SliderControllers button.PrevButton {
-    border-radius: 5px 0 0 5px;
-}
-
-.SliderControllers button.NextButton {
-    border-radius: 0 5px 5px 0;
-}
-
-.SliderControllers button:hover {
-    background: #000;
-}
+ 
