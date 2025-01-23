@@ -1,0 +1,103 @@
+.SliderBg{
+    position: relative;
+}
+
+.Content1{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center; 
+}
+ 
+.Content1 div{
+    background: rgba(0,0,0,0.5);
+    height: max-content;
+    padding: 20px;
+    border-bottom-right-radius: 10px;  border-bottom-left-radius: 10px;
+}
+.Content1 div h6{
+    font-weight: 800;
+    font-size: 60px;
+    color: var(--main);
+}
+.Content1 div p{
+    font-size: 11px ;
+    font-weight: 800;
+}
+
+.SliderBg img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.SliderBg .Overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(122, 118, 118, 0.5));
+}
+ 
+
+.MainContent{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 100000;
+    color: #fff;
+    text-align: center;
+}
+
+.MainContent div h6{
+    font-weight: 800;
+    font-size: 16px;
+    color: #ccc;
+}
+.MainContent div h5{
+    font-weight: 900;
+    font-size: 150px;
+    text-shadow: 10px 20px 20px rgba(0,0,0,0.3);
+}
+
+
+/* For SliderControllers */
+.SliderControllers {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 3000000000000000;
+}
+
+.SliderControllers button {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.SliderControllers button.PrevButton {
+    border-radius: 5px 0 0 5px;
+}
+
+.SliderControllers button.NextButton {
+    border-radius: 0 5px 5px 0;
+}
+
+.SliderControllers button:hover {
+    background: #000;
+}
