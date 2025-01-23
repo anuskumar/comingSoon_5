@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React  from 'react'
 
 import styles from './SliderBg.module.css'  
 
@@ -11,7 +11,7 @@ const countdownDate = new Date('2025-05-19T23:18:07')
 
 export const SliderBg = () => {
 
-
+   
 
   return (
     <div className={styles.SliderBg}>
@@ -23,7 +23,9 @@ export const SliderBg = () => {
                 </div>
             </div>
              <div>
-                 <video autoPlay muted loop src="/assets/swimmingpool_comingSoon.mp4"></video>
+                  <video
+                   autoPlay muted loop
+                   src="/assets/video.mp4"></video>
              </div>
              <div className={styles.Overlay}></div>
         </div>
@@ -39,7 +41,7 @@ export const SliderBg = () => {
 
           </div>
         </div>
-        
+       
     </div>
   )
 }
