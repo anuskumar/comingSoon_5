@@ -18,8 +18,8 @@ export const SliderBg = () => {
         <div>
             <div className={styles.Content1}> 
                 <div>
-                <h6>E.</h6>
-                <p>Nature Lover</p> 
+                <h6>Petrise</h6>
+                {/* <p>Nature Lover</p>  */}
                 </div>
             </div>
              <div>
