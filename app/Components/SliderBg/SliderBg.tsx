@@ -7,7 +7,7 @@ import styles from './SliderBg.module.css'
 import { CountDown } from '../CountDown/CountDown'
 
 
-const countdownDate = new Date('2025-05-19T23:18:07')
+const countdownDate = new Date('2025-07-19T23:18:07')
 
 export const SliderBg = () => {
 
@@ -31,7 +31,7 @@ export const SliderBg = () => {
         </div>
         <div className={styles.MainContent}>
           <div>
-          <h6>Easy Groups of Companies</h6>
+          <h6></h6>
           <h5>Coming Soon</h5> 
          
 
